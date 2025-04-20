@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans";
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.bg{
+    background: url(img/1.png) no-repeat ;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+}
+.li{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+color: white;  
+transition: 1s;  
+}
+.li:hover{
+    color: #F57520;
+    text-shadow: 0px 4px 4px  #F57520;
+
+}
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.bike{
+    width: 679px;
+    padding-top: 80px;
+padding-bottom: 224px;
+}
+.h1{
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 96px;
+line-height: 123%;
+letter-spacing: 2%;
+color: white;
+padding-bottom: 48px;
+}
+.p{
+    font-family: Open Sans;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 1%;
+color: white;
+padding-bottom: 40px;
+}
+.btn{
+    padding: 16px 45px;
+    background-color: #F57520;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.bg1{
+        background-color: #777776;
+
+}
+.trassa{
+    padding-bottom: 109px;
+
+}
+.h2{
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 64px;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: center;
+padding-top: 59px;
+padding-bottom: 170px;
+}
+.cards{
+    width: 400px;
+    height: 462px;
+color: white;
+background-color: #101010;
+border-radius: 10px;
+transition: 1s;
+}
+.cards img {
+    border-radius: 10px;
+}
+.h3{
+    padding-top: 24px;
+    padding-bottom: 35px;
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+padding-left: 27px;
+
+
+}
+.p__title{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 1%;
+width: 315px;
+padding-left: 27px;
+
+}
+.cards:hover{
+    background-color: #F57520;
+    color: #101010;
+}
+.trassa__bike{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    grid-column: 40px;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    
+  }
+  .bg2{
+    background-color: #F57520;
+    position: relative;
+padding-left: 250px;
+padding-top: 52px;
+min-height: 600px;
+}
+  
+  .form-title {
+    color: white;
+    padding: 15px;
+    margin-bottom: 90px;
+    display: inline-block;
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 40px;
+line-height: 123%;
+letter-spacing: 5%;
+width: 600px;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .btn-submit {
+    color: #F57520;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .image-container img {
+    width: 729px;
+    height: 596px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .bg4{
+    background-color: black;
+    color: white;
+  }
+  .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ul-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+padding-top: 100px;
+padding-bottom: 100px;
+  }
+  .h3-bar{
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 1%;
+display: flex;
+padding-bottom: 30px;
+}
+  .p-bar{
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+
+  }
